@@ -1,0 +1,34 @@
+:root {
+    
+  
+ /*===== Colors =====*/
+ /* Change theme of site down below, chose the color. */
+ --hue-color: 270; /*Purple 250 - Green 164 - Blue 230 - Pink 300*/
+
+      /* HSL color mode */
+ --first-color: hsl(var(--hue-color), 69%, 62%);
+ --first-color-second: hsl(var(--hue-color), 69%, 62%);
+ --first-color-alt: hsl(var(--hue-color), 57%, 54%);
+ --first-color-lighter: hsl(var(--hue-color), 92%, 84%);
+ --title-color: hsl(var(--hue-color), 8%, 14%);
+ --text-color: hsl(var(--hue-color), 8%, 44%);
+ --text-color-light: hsl(var(--hue-color), 8%, 63%);
+ --input-color: hsl(var(--hue-color), 70%, 97%);
+ --body-color: hsl(var(--hue-color), 63%, 94%);
+ --container-color: #fff;
+ --scroll-bar-color: hsl(var(--hue-color), 13%, 91%);
+ --scroll-thumb-color: hsl(var(--hue-color), 14%, 81%);
+}
+    /*===Color for Dark Theme===*/
+body.dark-theme{
+  --first-color-dark: hsl(var(--hue-color), 8%, 20%);
+  --first-color-second: hsl(var(--hue-color), 30%, 8%);
+  --title-color: hsl(var(--hue-color), 4%, 95%);
+  --text-color: hsl(var(--hue-color), 4%, 75%);
+  --body-color: hsl(var(--hue-color), 28%, 12%);
+  --container-color: hsl(var(--hue-color), 8%, 6%);
+  --scroll-bar-color: hsl(var(--hue-color), 12%, 48%);
+  --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
+  --box-shadow: 2px 2px 18px rgb(hsl(var(--input-color)));
+  --input-color: hsl(var(--hue-color), 29%, 16%);
+}

@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--====== CSS ====-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <!--======  CSS - FONTS AND TYPOGRAPHY ====-->
+        <link rel="stylesheet" href="assets/css/fonts&typo.css">
+        <!--====== CSS - COLORS  ====-->
+        <link rel="stylesheet" href="assets/css/colors.css">
+        <!--====== CSS - GLOBAL ====-->
+        <link rel="stylesheet" href="assets/css/global.css">
+        
+        <!--======= UNICONS =======-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+        
+        <title>My Online CV</title>
+    </head>
+    <body>
+                                         <!--HEADER -->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#home" class="nav_logo">
+                    Andrei Malihin
+                </a>
+
+                <div class="nav_menu" id="nav-menu">
+                    <ul class="nav_list">
+                        <li class="nav-item">
+                            <a href="#home" class="nav_link active_link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav_link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#skills" class="nav_link">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#portfolio" class="nav_link">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav_link">Contact Me</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav_close" id="nav-close">
+                        <i class="uil uil-times nav_close" id="nav-close"></i>
+                    </div>
+                </div>
+
+                <div class="nav_btns">
+                                        <!-- THEME CHANGE BTN -->
+                    <i class="uil uil-moon change_theme" id="theme-button"></i>
+
+                    <div class="nav_toogle" id="nav-toggle">
+                        <i class="uil uil-bars"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+                                             <!--MAIN -->
+        <main class="main">
+                                             <!--HOME -->
+            <section class="home section" id="home">
+                <div class="home_container container grid">
+                    <div class="home_img">
+                        <img src="assets/img/download.png" class="home_image" alt="">
+                    </div>
+
+                    <div class="home_data">
+                        <h1 class="home_title">Hi, I'am Andrei Malihin</h1>
+                        <h3 class="home_subtitle" id = "dinamic-text"></h3>
+                        <p class="home_description">
+                           Im a Junior in Web Development, ready to learn new things and imporve my work anytime :)
+                        </p>
+                        <a href="#contact" class="button button--flex">
+                            Contact Me <i class="uil uil-message button__icon"></i>
+                        </a>
+                        <div class="home_scroll">
+                            <a href="#about" class="home_scroll-button button--flex"></a>
+                            <i class="uil uil-mouse-alt home_scroll-mouse"></i>
+                            <span class="home_scroll-name">Scroll down</span>
+                            <i class="uil uil-arrow-down home_scroll-arrow"></i>
+                        </div>
+                        <div class="home_social">
+                            <span class="home_social-follow">Follow Me</span>
+                            <div class="home_social-links">
+                                <a href="https://www.linkedin.com" target="_blank" class="home_social-icon">
+                                    <i class="uil uil-linkedin-alt"></i>
+                                <a href="https://www.github.com" target="_blank" class="home_social-icon">
+                                    <i class="uil uil-github-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="home_scroll_social">
+                            <div class="home_scroll1">
+                                <a href="#about" class="home_scroll-button button--flex"></a>
+                                <i class="uil uil-mouse-alt home_scroll-mouse"></i>
+                                <span class="home_scroll-name">Scroll down</span>
+                                <i class="uil uil-arrow-down home_scroll-arrow"></i>
+                            </div>
+                            <div class="home_social1">
+                                <div class="home_social-link">
+                                    <a href="https://www.linkedin.com" target="_blank" class="home_social-icon">
+                                        <i class="uil uil-linkedin-alt"></i>
+                                    </a>
+                                    <a href="https://www.github.com" target="_blank" class="home_social-icon">
+                                        <i class="uil uil-github-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </section>
+
+                                        <!--ABOUT-->
+            <section class="about section" id="about">
+               <h2 class="section__title">About Me</h2>
+               <span class="section__subtitle">A short introduction </span>
+
+               <div class="about_container container grid">
+                 <img src="assets/img/download.png" alt="" class="about_img">
+
+                 <div class="about_data">
+                    <p class="about_description">
+                        I'm a Junior Front-End web developer that wants to land his first job in IT industry
+                        and learn as much as possible in this process.
+                    </p>
+                    <div class="about_info">
+                        <div>
+                            <span class="about_info-title">6+</span>
+                            <span class="about_info-name">Months <br>experience in this domain</span>
+                        </div>
+                        <div>
+                            <span class="about_info-title">5</span>
+                            <span class="about_info-name">Completed <br>projects</span>
+                        </div>
+                        <div>
+                            <span class="about_info-title">0</span>
+                            <span class="about_info-name">Working experience <br>in companies</span>
+                        </div>
+                    </div>
+                    <div class="about_buttons">
+                        <a href="assets/pdf/Andrei-Malihin-CV.pdf" target="_blank" class="button button--flex">
+                            Download CV <i class="uil uil-download-alt button_icon"></i>
+                        </a>
+                    </div>
+                 </div>
+               </div>
+            </section>
+
+                                                <!--SKILLS -->
+            <section class="skills section" id="skills">
+              <h2 class="section__title">Tehnical Skills</h2>
+              <span class="section__subtitle">List of skills</span>
+
+              <div class="skills_container container grid">
+                <div>
+                    <div class="skills_content skills_open">
+                        <div class="skills_header">
+                            <i class="uil uil-brackets-curly skills_icon"></i>
+
+                            <div>
+                                <h1 class="skills_title">Frontend developer</h1>
+                                <span class="skills_subtitle">Looking for improvement</span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills_arrow"></i>
+                        </div>
+                        <div class="skills_list grid">
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">HTML</h3>
+                                    <span class="skills_number">90%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_html"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">CSS</h3>
+                                    <span class="skills_number">75%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_css"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">JavaScript</h3>
+                                    <span class="skills_number">60%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_javascript"></span>
+                                </div>
+                                <div class="skill_angular">
+                                    <div class="skills_titles">
+                                        <h3 class="skills_name">Angular</h3>
+                                        <span class="skills_number">30%</span>
+                                    </div>
+                                    <div class="skills_bar">
+                                        <span class="skills_percentage skills_angular"></span>
+                                    </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+            </section>
+                                                 <!-- PORTFOLIO =-->
+            <section class="portfolio section" id="portfolio">
+              <h2 class="section__title">Portfolio</h2>  
+              <span class="section__subtitle">What I've been working on...</span>
+
+              <div class="portfolio_container container">
+
+                                                  <!-- Project -1- =-->
+                    <div class="portfolio_content grid">
+                        <a href="https://github.com/andreifkz/portofolio-links/tree/main/todoapp" target="_blank"><img src="assets/img/Project1.png" alt="" class="portfolio_img"></a>
+
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">A simple to do application</h3>
+                            <p class="portfolio_description">
+                                This simple application was created using basic concepts of HTML, CSS and JavaScript.
+                            </p>
+                            <a href="https://github.com/andreifkz/portofolio-links/tree/main/todoapp" target="_blank" class="button button--flex button--small portfolio_button">
+                               Git Code Here
+                            </a>
+                        </div>
+                    </div>
+                                                    <!-- Project -2- -->
+                    <div class="portfolio_content grid ">
+                        <a href="https://github.com/andreifkz/portofolio-links/tree/main/Rock%20Paper%20Scissors%20Game" target="_blank"><img src="assets/img/rock-paper-scissors.png" alt="" class="portfolio_img"></a>
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">Rock Paper Scissors game</h3>
+                            <p class="portfolio_description">
+                                Try your luck in my "Rock Paper Scissors" aganst computer.
+                            </p>
+                            <a href="https://github.com/andreifkz/portofolio-links/tree/main/Rock%20Paper%20Scissors%20Game" target="_blank" class="button button--flex button--small portfolio_button">
+                                Git Code Here
+                            </a>
+                        </div>
+                    </div>
+                                                    <!--Project 3 -->
+                    <div class="portfolio_content grid ">
+                        <a href="https://github.com/andreifkz/portofolio-links/tree/main/Contact%20Us%20Form" target="_blank"><img src="assets/img/Project 3.png" alt="" class="portfolio_img"></a>
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">Contact Form</h3>
+                            <p class="portfolio_description">
+                                Contact form created using HTML and CSS, later on I will be adding JavaScript to make it functional.
+                            </p>
+                            <a  href="https://github.com/andreifkz/portofolio-links/tree/main/Contact%20Us%20Form" target="_blank" class="button button--flex button--small portfolio_button">
+                                Git Code Here
+                            </a>
+                        </div>
+                    </div>
+            </section>
+
+                                                 <!--Get in Touch -->
+            <section class="project section">
+              <div class="project_bg">
+                <div class="project_container container grid">
+                    <div class="project_data">
+                        <h2 class="project_title">Are you already interested?</h2>
+                        <p class="project_description">Let's get in touch by contacting me using the button down below!</p>
+                        <a href="#contact" class="button button--flex button--white">
+                            Contact Me 
+                            <i class="uil uil-message project_icon button_icon"></i>
+                        </a>
+                    </div>
+
+                    <img src="assets/img/download.png" alt="" class="project_img">
+                </div>
+              </div>
+                                                <!--CONTACT ME -->
+            <section class="contact section" id="contact">
+              <h2 class="section__title">Contact Me</h2>
+              <span class="section__subtitle">Get in touch</span>
+
+              <div class="contact_container container grid">
+                <div>
+                    <div class="contact_information">
+                        <i class="uil uil-phone contact_icon"></i>
+
+                        <div>
+                            <h3 class="contact_title">Call Me</h3>
+                            <span class="contact_subtitle">666-666-666</span>
+                        </div>
+                    </div>
+                    <div class="contact_information">
+                        <i class="uil uil-envelope contact_icon"></i>
+
+                        <div>
+                            <h3 class="contact_title">Email</h3>
+                            <span class="contact_subtitle">dummy@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="contact_information">
+                        <i class="uil uil-map-marker contact_icon"></i>
+
+                        <div>
+                            <h3 class="contact_title">Location</h3>
+                            <span class="contact_subtitle">Location, Country, City</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form action="" class="contact_form grid">
+                    <div class="contact_inputs grid">
+                        <div class="contact_content">
+                            <label for="" class="contact_label">Name</label>
+                            <input type="text" class="contact_input">
+                        </div>
+                        <div class="contact_content">
+                            <label for="" class="contact_label">Email</label>
+                            <input type="email" class="contact_input">
+                        </div>
+                    </div>
+                    <div class="contact_content">
+                        <label for="" class="contact_label">Message Title</label>
+                        <input type="text" class="contact_input">
+                    </div>
+                    <div class="contact_content">
+                        <label for="" class="contact_label">Message</label>
+                        <textarea name="" id="" cols="0" rows="7" class="contact_input"></textarea>
+                    </div>
+                    <div>
+                        <a href="#" class="button button--flex">
+                            Send Message 
+                            <i class="uil uil-message button_icon"></i>
+                        </a>
+                    </div>
+                </form>
+              </div>
+            </section>
+        </main>
+
+                                                   <!--FOOTER-->
+        <footer class="footer">
+          <div class="footer_bg">
+            <div class="footer_container container grid">
+                <div>
+                    <h1 class="footer_title">Malihin Andrei</h1>
+                    <span class="footer_subtitle">Front-End Web Developer</span>
+                    <p class="footer_subtitle">
+                        Beginner level experience in front-end web development,
+                        and a bit familiar with some libraries.
+                    </p>
+                </div>
+                <ul class="footer_links">
+                    <li>
+                        <a href="#portfolio" class="footer_link">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer_link">Cantact Me</a>
+                    </li>
+                </ul>
+                <div class="footer_socails">
+                    <a href="https://www.facebook.com" target="_blank" class="footer_social">
+                        <i class="uil uil-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com" target="_blank" class="footer_social">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+                    <a href="https://www.twitter.com" class="footer_social">
+                        <i class="uil uil-twitter-alt"></i>
+                    </a>
+                </div>
+        </footer>
+        
+                                         <!--=BACK TO TOP BUTTON ====-->
+        <a href="#" class="scrollup" id="scroll-up">
+          <i class="uil uil-arrow-up scrollup_icon"></i>
+        </a>
+                                         <!--===MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
